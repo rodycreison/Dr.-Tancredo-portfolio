@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Tancredo Neves | Cardiologia Preventiva | Niterói, RJ</title>
+    <meta name="description" content="Cardiologia moderna e humanizada em Niterói. Foco em prevenção, diagnóstico e qualidade de vida. Agende sua consulta.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Overlay para o menu mobile -->
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">
+                <img src="images/logo-dr-tancredo.png" alt="Logo Dr. Tancredo Neves" class="header__logo-img">
+                <span class="header__logo-text">Dr. Tancredo Neves</span>
+            </a>
+            <nav class="header__nav--desktop">
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#artigos">Artigos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contato" class="btn header__btn--desktop">Agendar Consulta</a>
+            <!-- Botão do Menu Mobile (Hambúrguer) -->
+            <button id="menu-toggle" class="header__menu-toggle">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Lateral Mobile -->
+    <nav id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu__header">
+             <a href="index.html" class="header__logo">
+                <img src="images/logo-dr-tancredo.png" alt="Logo Dr. Tancredo Neves" class="header__logo-img">
+                <span class="header__logo-text">Dr. Tancredo Neves</span>
+            </a>
+        </div>
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#artigos">Artigos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn--mobile">Agendar Consulta</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__text">
+                    <h1>Cuidando do seu coração com precisão e humanidade.</h1>
+                    <p>Uma abordagem moderna para a cardiologia, focada em um plano de saúde preventivo e personalizado para o seu estilo de vida.</p>
+                    <a href="#contato" class="btn">Agendar sua Consulta</a>
+                </div>
+                <div class="hero__image">
+                    <img src="images/foto-hero-consultorio.jpg" alt="Imagem de um consultório médico moderno e minimalista.">
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="services section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Áreas de Atuação</h2>
+                </div>
+                <div class="services__grid">
+                    <div class="service-item">
+                        <h3>01/ Check-up Cardiológico</h3>
+                        <p>Avaliação completa para prevenção e diagnóstico precoce.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>02/ Eletrocardiograma (ECG)</h3>
+                        <p>Análise precisa do ritmo e da atividade elétrica do coração.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>03/ MAPA e Holter 24h</h3>
+                        <p>Monitoramento contínuo para diagnósticos complexos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="about section">
+            <div class="container about__container">
+                <div class="about__image">
+                     <img src="images/foto-dr-tancredo-perfil.jpg" alt="Retrato profissional do Dr. Tancredo Neves.">
+                </div>
+                <div class="about__text">
+                    <div class="section-title">
+                        <h2>A ciência como aliada, o cuidado como vocação.</h2>
+                    </div>
+                    <p>Acredito que a melhor medicina é a preventiva. Minha missão é ir além do tratamento de doenças, focando em um plano de saúde cardiovascular que se integra à sua vida, construindo juntos um caminho para um coração mais forte.</p>
+                    <p><strong>CRM: 00.12345-6</strong></p>
+                </div>
+            </div>
+        </section>
+        <section id="artigos" class="articles section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 id="articles-heading">Artigos e Publicações Recentes</h2>
+                </div>
+                <div id="medium-articles-container" class="articles-grid">
+                    <p class="loading-message">Carregando artigos...</p>
+                </div>
+                <div class="articles-footer">
+                    <a href="https://medium.com/@tiagocatojo" target="_blank" class="btn btn--outline">Ver todas as publicações</a>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contact section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Agende sua consulta. O primeiro passo para cuidar de você.</h2>
+                </div>
+                <div class="contact__content">
+                    <div class="contact__details">
+                        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5521999998888?text=Ol%C3%A1%2C%20Dr.%20Tancredo!%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank">(21) 99999-8888</a></p>
+                        <p><strong>Endereço:</strong> Rua dos Médicos, 123, Sala 405, Icaraí, Niterói - RJ</p>
+                         <p><strong>E-mail:</strong> <a href="mailto:contato@drtancredoneves.com.br">contato@drtancredoneves.com.br</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>© 2025 Dr. Tancredo Neves. Todos os direitos reservados.</p>
+            <p><a href="politica-de-privacidade.html">Política de Privacidade</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
