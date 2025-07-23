@@ -1,7 +1,0 @@
-Coloque suas imagens nesta pasta com os seguintes nomes:
-
-- logo-dr-tancredo.svg (ou .png)
-- foto-hero-consultorio.jpg
-- foto-dr-tancredo-perfil.jpg
-
-Lembre-se de otimizar as imagens para a web!
